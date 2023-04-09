@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "name":"Koenigsegg",
+        "type":"Sport",
+        "cap":"90L",
+        "shift":"Manual",
+        "person":2,
+        "price":99,
+        "img":"./imgs/koenigsegg.svg"
+    },
+    {
+        "id":2,
+        "name":"Nissan GT-R",
+        "type":"Sport",
+        "cap":"80L",
+        "shift":"Manual",
+        "person":2,
+        "price":80,
+        "img":"./imgs/gtr.svg"
+    },
+    {
+        "id":3,
+        "name":"Rolls - Royce",
+        "type":"Sedan",
+        "cap":"70L",
+        "shift":"Manual",
+        "person":4,
+        "price":96,
+        "img":"./imgs/roys.svg"
+    },
+    {
+        "id":4,
+        "name":"All New Rush",
+        "type":"SUV",
+        "cap":"70L",
+        "shift":"Manual",
+        "person":6,
+        "price":72,
+        "img":"./imgs/all.svg"
+    },
+    {
+        "id":5,
+        "name":"CR - V",
+        "type":"SUV",
+        "cap":"80L",
+        "shift":"Manual",
+        "person":6,
+        "price":80,
+        "img":"./imgs/cr.svg"
+    },
+    {
+        "id":6,
+        "name":"All New Terios",
+        "type":"SUV",
+        "cap":"90L",
+        "shift":"Manual",
+        "person":6,
+        "price":74,
+        "img":"./imgs/terios.svg"
+    },
+    {
+        "id":7,
+        "name":"CR - V",
+        "type":"SUV",
+        "cap":"80L",
+        "shift":"Manual",
+        "person":6,
+        "price":80,
+        "img":"./imgs/crb.svg"
+    },
+    {
+        "id":8,
+        "name":"MG ZX Exclusice",
+        "type":"Hatchback",
+        "cap":"70L",
+        "shift":"Manual",
+        "person":4,
+        "price":76,
+        "img":"./imgs/mg.svg"
+    },
+    {
+        "id":9,
+        "name":"New MG ZS",
+        "type":"SUV",
+        "cap":"80L",
+        "shift":"Manual",
+        "person":6,
+        "price":80,
+        "img":"./imgs/nmg.svg"
+    }
+]

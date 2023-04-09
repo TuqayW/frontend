@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        width: 56%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        h1{
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120%;
+            color: #3563E9;
+            margin-left: 40px;
+            background-color: #FFFFFF;
+        }
+        .search-bar{
+            display: flex;
+            width: 700px;
+            height: 40px;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid rgba(195, 212, 233, 0.4);
+            border-radius: 70px;
+            background-color: #FFFFFF;
+            input{
+                font-size: 20px;
+                background-color: #FFFFFF;
+                width: 600px;
+            }
+            input::placeholder{
+                color: #3D5278;
+            }
+            img{
+                height:20px;
+                background-color: #FFFFFF;
+            }
+        }
+        @media screen and (max-width: 1300px) {
+            .search-bar {
+              display: none;
+            }
+        }
+
+    }
+    .right{
+        height: 100%;
+        width: 300px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-color: #FFFFFF;
+        .btns{
+            display: flex;
+            width: 150px;
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #FFFFFF;
+            img{
+                cursor: pointer;
+                background-color: #FFFFFF;
+            }
+        }
+        .pfp{
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        @media screen and (max-width: 500px) {
+            .btns {
+              display: none;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,107 @@
+.up{
+    width: 85%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .p-u{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+        height: 60%;
+        background: white;
+        border-radius: 10px;
+        .yuxari{
+            width: 96%;
+            height: 30px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-left: 4%;
+            background: white;
+            position:relative;
+            label{
+                .w{
+                    cursor: pointer;
+                    opacity: 0;
+                }
+                .q{
+                    position: absolute;
+                    cursor: pointer;
+                    top: 36%;
+                }
+                span{
+                    font-family: 'Plus Jakarta Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    background: white;
+                    line-height: 20px;
+                    letter-spacing: -0.02em;
+                    color: #1A202C;
+                    cursor: pointer;
+                }
+            }
+        }
+        .asagi{
+            margin-left: 4%;
+            width: 96%;
+            display: flex;
+            background: white;
+            justify-content: space-between;
+            align-items: center;
+            .selection{
+                width: 210px;
+                background: white;
+                height: 90px;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                h1{
+                    font-family: 'Plus Jakarta Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 120%;
+                    color: #1A202C;
+                    background: white;
+                }
+                select{
+                    width: 130px;
+                    font-family: 'Plus Jakarta Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 200%;
+                    background: white;
+                    letter-spacing: -0.01em;
+                    color: #90A3BF;
+                    border: 1px solid white;
+                }
+            }
+            @media screen and (max-width: 1200px) {
+                .selection>select {
+                    width: 70px;
+                    font-size: 10px;
+                }
+            }
+            @media screen and (max-width: 750px) {
+                .selection>select {
+                    width: 60px;
+                    font-size: 8px;
+                }
+                .selection>h1{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .up {
+    }
+}
